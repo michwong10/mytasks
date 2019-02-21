@@ -1,3 +1,71 @@
 body{
-    background-color: rgb(160, 150, 131);
+    background-color: rgb(153, 255, 238);
+    margin: 20px;
+  color: #424242; 
+  font: 500 1.2em/1.2 'Roboto', sans-serif;
+ 
 }
+
+h2 {
+  text-align: center;
+  
+}
+
+
+input{
+  padding: 4px 15px 4px 5px;
+  }
+
+.button {
+  background-color:#0088f8;
+  color:#ffffff;
+  border-radius: 5px;
+  text-align:center;
+  margin-top:2px;
+  padding: 5px 15px;
+  }
+
+ .button:hover{
+    cursor: pointer;
+    opacity: .8;
+  }
+  
+
+.header-container {
+    border: 5px solid #435757;
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    text-align: center;
+  }
+
+  .todoitems {  
+    border: 5px solid #435757;
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    text-align: left;
+    padding: 1em;
+    display: grid; 
+
+  }
+
+  .listitems{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+ 
+  .completed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .incompleted {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-start: 2;
+  }
+
+  .task {
+    display: grid;
+    grid-template-columns: 2em auto 3em 3em;
+  }

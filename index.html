@@ -10,10 +10,79 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+
+      <div class="header-container">
+        <h1>Michelle's Daily <br> To Do List</h1>
+      </div>
+
+      <section class= "completed">
+      <h2> Done </h2>
+      </section>
+
+      <section class= "incompleted">
+      <h2>Not Done</h2>
+      </section>
+
+    </div>
+   
+    <form name="toDoList">
+			<input type="text" name="ListItem"/>
+    </form>    
+    <div class="button">Add</div>
+
       
-      <h1>My Tasks</h1>
-      <p>My Daily to-do list</p>
-  
+    
+        <section class="todoitems">
+          
+        <article class= "listitems">
+          <h2>Tasks</h2>
+          <h2>Complete By</h2>
+        </article>
+        
+        
+        <ul id = "to_do_items">
+          <div class="task">
+          <input id="item1" type="checkbox" unchecked>
+          <div class="taskName1">Meal Prep</div>
+          <div class= "timeby1"> 18:00</div>
+          <div class= "progress1"> 100%</div>
+        </div>
+        
+        <div class="task">
+            <input id="item2" type="checkbox" unchecked>
+            <div class="taskName2">Laundry</div>
+            <div class= "timeby2"> 15:00</div>
+            <div class= "progress2"> 40%</div>
+          </div>
+
+          <div class="task">
+              <input id="item3" type="checkbox" unchecked>
+              <div class="taskName3">Web Design Assignment</div>
+              <div class= "timeby1"> 09:00</div>
+              <div class= "progress3"> 50%</div>
+            </div>
+          
+            <div class="task">
+                <input id="item4" type="checkbox" unchecked>
+                <div class="taskName4">Check Emails</div>
+                <div class= "timeby4"> 23:00</div>
+                <div class= "progress4"> 100%</div>
+              </div>
+
+              <div class="task">
+                  <input id="item5" type="checkbox" unchecked>
+                  <div class="taskName5">Complete Readings</div>
+                  <div class= "timeby5"> 10:00</div>
+                  <div class= "progress5"> 80%</div>
+                </div>
+              
+              </ul> 
+          
+          
+         
+
+
+        </ul>
       <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
     <script src="js/main.js"></script>
   </body>
